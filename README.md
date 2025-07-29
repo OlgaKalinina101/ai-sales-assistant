@@ -1,4 +1,4 @@
-D# AI Sales Assistant
+# AI Sales Assistant
 
 ## Обзор проекта
 
