@@ -54,11 +54,11 @@ def find_relevant_chunks_by_segment(
 
             # Шаг 1: Распаковка архива
             if os.path.exists(RAW_DATA_DIR):
-                print("Начинаю распаковку архива")
+                logger.info("Начинаю распаковку архива")
                 try:
                     extract_nested_zip(ZIP_PATH, PROCESSED_DATA_DIR)
                 except Exception as e:
-                    print(f"Не удалось распаковать архив {e}")
+                    logger.error(f"Не удалось распаковать архив {e}")
                 logger.info("📦 Архив успешно распакован.")
             else:
                 logger.error(f"❌ Архив не найден по пути: {RAW_DATA_DIR}")
