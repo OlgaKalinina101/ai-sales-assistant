@@ -47,7 +47,7 @@ AI_sales_assistant/
 │   └── chroma.sqlite3          # SQLite-файл ChromaDB
 │
 ├── .env                        # Переменные окружения
-├── Dockerfile.app              # Dockerfile для сборки (можно переименовать в Dockerfile)
+├── Dockerfile             # Dockerfile для сборки 
 ├── docker-compose.yml          # Docker Compose для запуска
 ├── requirements.txt            # Python-зависимости
 ├── main.py                     # Точка входа для FastAPI
