@@ -14,7 +14,6 @@ AI_sales_assistant/
 ├── app/                           # Основная логика приложения
 │   ├── __init__.py
 │   ├── routes.py                  # FastAPI маршруты
-│   ├── main.py                    # Точка входа для FastAPI
 │   │
 │   ├── letter_pipeline/          # Логика LangGraph пайплайна
 │   │   ├── __init__.py
@@ -51,6 +50,7 @@ AI_sales_assistant/
 ├── Dockerfile.app              # Dockerfile для сборки (можно переименовать в Dockerfile)
 ├── docker-compose.yml          # Docker Compose для запуска
 ├── requirements.txt            # Python-зависимости
+├── main.py                     # Точка входа для FastAPI
 └── README.md                   # Описание проекта
 
 ```
