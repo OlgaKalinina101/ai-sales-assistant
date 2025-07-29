@@ -122,7 +122,7 @@ AI_sales_assistant/
 
 **Пример вызова**:
 ```python
-from scripts.ingest_to_chroma import KnowledgeBaseBuilder
+from data_ingestion.ingestor import KnowledgeBaseBuilder
 builder = KnowledgeBaseBuilder()
 builder.ingest()
 ```
