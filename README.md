@@ -30,11 +30,11 @@ AI_sales_assistant/
 │   ├── raw/                      # Необработанные файлы
 │   └── processed/                # Распакованные файлы
 │
-├── data_ingestion/              # Скрипты обработки документов
+├── data_ingestion/              # Обработка документов
 │   ├── __init__.py
 │   ├── config.py               # Пути к директориям/моделям
 │   ├── cleaner.py              # Очистка директорий
-│   ├── extractor.py            # Извлечение данных из PDF
+│   ├── extractor.py            # Извлечение данных 
 │   ├── ingestor.py             # Объединение в пайплайн
 │   └── loader.py               # Загрузка в память
 │
@@ -47,7 +47,7 @@ AI_sales_assistant/
 │   └── chroma.sqlite3          # SQLite-файл ChromaDB
 │
 ├── .env                        # Переменные окружения
-├── Dockerfile             # Dockerfile для сборки 
+├── Dockerfile                  # Dockerfile для сборки 
 ├── docker-compose.yml          # Docker Compose для запуска
 ├── requirements.txt            # Python-зависимости
 ├── main.py                     # Точка входа для FastAPI
