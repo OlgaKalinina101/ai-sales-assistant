@@ -135,7 +135,7 @@ builder.ingest()
 
 **Пример вызова**:
 ```python
-from scripts.parse_documents import clear_processed_data
+from data_ingestion.cleaner import clear_processed_data
 clear_processed_data()
 ```
 
