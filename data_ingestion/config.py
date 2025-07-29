@@ -19,7 +19,6 @@ ZIP_PATH = RAW_DATA_DIR / "Konsol_Pro_Articles.zip"
 PDF_PATH = RAW_DATA_DIR / "Service_Console.pdf"
 
 # Для Chroma
-
 CHROMA_DB_PATH = PROJECT_ROOT / "vector_store"
 CHROMA_COLLECTION_NAME = "sales_knowledge_base"
 CHUNK_SIZE = 320
