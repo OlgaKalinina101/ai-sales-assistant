@@ -152,11 +152,8 @@ async def generate_letter_node(state: LetterState) -> LetterState:
 
         try:
             letter_json = extract_json(letter_raw)
-            print(letter_json)
             subject = letter_json.get("subject", "")
-            print(subject)
             body = letter_json.get("body", "")
-            print(body)
         except Exception as e:
             logger.warning(f"Ошибка парсинга JSON-ответа: {e}")
             subject = ""
