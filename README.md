@@ -63,7 +63,7 @@ AI_sales_assistant/
 
 2. **Создание базы знаний**:
 ```python
-   from scripts.ingest_to_chroma import KnowledgeBaseBuilder
+   from data_ingestion.ingestor import KnowledgeBaseBuilder
    builder = KnowledgeBaseBuilder()
    builder.ingest()
 ```
