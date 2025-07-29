@@ -1,0 +1,11 @@
+# Исключаем виртуальное окружение, IDE, базы, лишние данные
+.venv
+__pycache__/
+.idea
+*.pyc
+*.pkl
+*.zip
+*.db
+*.sqlite
+vector_store/
+data/processed/

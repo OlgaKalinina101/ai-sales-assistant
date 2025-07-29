@@ -1,0 +1,24 @@
+# Виртуальное окружение и IDE
+.venv/
+.idea/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Файлы окружения
+.env
+
+# Исключаем только ChromaDB (векторную базу)
+vector_store/
+
+# Оставляем данные (включая архивы)
+!data/
+!data/raw/
+!data/raw/*.zip
+
+# Игнорировать всё в папке processed
+/data/processed/*
+
+# Но оставить саму папку
+!/data/processed/.gitkeep
