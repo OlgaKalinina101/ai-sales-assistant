@@ -5,7 +5,7 @@ from chromadb.api import Collection
 from data_ingestion.config import CHROMA_DB_PATH, CHROMA_COLLECTION_NAME
 
 def get_chroma_client() -> chromadb.ClientAPI:
-    return chromadb.PersistentClient(path=CHROMA_DB_PATH)
+    return chromadb.PersistentClient(path=CHROMA_DB_PATH, exist_ok=True)
 
 def get_chroma_collection(client: chromadb.ClientAPI) -> Collection:
     """Инициализирует и возвращает коллекцию ChromaDB.
