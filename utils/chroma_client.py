@@ -1,3 +1,4 @@
+import os
 import chromadb
 from chromadb import Settings
 from chromadb.api import Collection
